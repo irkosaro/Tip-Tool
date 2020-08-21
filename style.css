@@ -1,0 +1,74 @@
+body {
+  font-family: helvetica;
+  margin: 30px;
+  background: #e0e5ec;
+  font-family: "Cormorant Garamond", serif;
+}
+
+section {
+  border: 2px solid grey;
+  box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.1),
+  0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  display: flex;
+}
+
+aside {
+  justify-content: space-between;
+  flex-basis: 50%;
+  padding: 4px 18px;
+}
+
+input {
+  display: block;
+  margin: 10px 0 20px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 20px;
+  padding: 6px;
+}
+
+  button {
+    transition: all 0.3s ease;
+    width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  }
+  button:hover {
+    
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+  }
+
+
+td {
+  text-align: center;
+  border: 1px solid grey;
+}
+
+table {
+  margin: 50px 0;
+  border-collapse: collapse;
+  padding: 4px;
+  width: 80%;
+}
+
+#summary td {
+  border: none;
+}
+
+.deleteBtn {
+  cursor: pointer;
+}
